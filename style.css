@@ -30,6 +30,7 @@ h1 {
   border: 1px solid;
   display: block;
   margin: 0 auto;
+  font-size: 16px;
 }
 
 img {
@@ -47,6 +48,7 @@ img {
 .nav-bar {
   text-decoration: none;
   color: black;
+  font-size: 16px;
 }
 
 .home-nav {
@@ -62,7 +64,7 @@ img {
 }
 
 .social-link {
-  padding: 0 1725px 0 1725px;
+  padding: 0 1735px 0 1735px;
 }
 
 .cursor {
