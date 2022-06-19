@@ -9,6 +9,10 @@ a {
   font-weight: 300;
 }
 
+.intro-container {
+  text-align: center;
+}
+
 p {
   font-family: "glacial_indifferenceregular";
   font-weight: 300;
@@ -20,6 +24,10 @@ h1 {
 
 button {
   font-family: "glacial_indifferenceregular";
+  border-radius: 50px;
+  padding: 11px 60px 11px 60px;
+  background-color: #edebe7;
+  border: 1px solid;
 }
 
 img {
