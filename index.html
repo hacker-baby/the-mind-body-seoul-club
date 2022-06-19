@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="cursor">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -14,49 +14,52 @@
     <link
       rel="stylesheet"
       type="text/css"
-      href="webfontkit/stylesheet.css"
+      href="static/fonts/stylesheet.css"
     />
     <title>The Mind Body Seoul Club - Home</title>
   </head>
-  <body class="cursor">
-    <header class="cursor">
-      <a href="" class="nav-bar">Home</a>
-      <a href="" class="nav-bar">Blog</a>
+  <body>
+    <header>
+<table class="nav-bar">
+    <th scope="col">
+ <a href="" class="home-nav">Home</a>
+    </th>
+    <th scope="col">
+         <a href="" class="blog-nav">Blog</a>
+        </th>
+</table>
     </header>
-    <div class="intro-container cursor">
+    <div class="intro-container">
       <p>A holistic journey through the city.</p>
       <h1>The Mind Body <i>Seoul</i> Club</h1>
     </div>
-    
-
-<table>
+<table class="blog-container">
     <tr>
-        <th scope="col">
-            <a href="" class="cursor">
-                <img src="src/peace-in-the-city.png" alt="" >
+        <th scope="col" class="blog-preview">
+            <a href="">
+                <img src="static/images/peace-in-the-city.png" alt="" >
                 <p>5 Places To Find Peave In The City</p>
             </a>
         </th>
-        <th>    
-            <a href="" class="cursor">
-            <img src="src/holistic-wellness.png" alt="" >
+        <th scope="col" class="blog-preview">    
+            <a href="">
+            <img src="static/images/holistic-wellness.png" alt="" >
             <p>Why Holistic Wellness Is A Lifestyle</p>
             </a>
         </th>
-        <th>
-            <a href="" class="cursor">
-                <img src="src/korean-bathhouse.png" alt="" >
+        <th scope="col" class="blog-preview">
+            <a href="">
+                <img src="static/images/korean-bathhouse.png" alt="" >
                 <p>Our Favorite Korean Bathhouse</p>
             </a>
         </th>
     </tr>
 </table>
-
-      <button class="cursor">See All</button>
+      <button class="btn">See All</button>
     </div>
-    <footer class="cursor">
-      <a href="" class="nav-bar">About</a>
-      <a href="" class="nav-bar">Social</a>
+    <footer class="nav-bar">
+      <a href="" class="about-link">About</a>
+      <a href="" class="social-link">Social</a>
     </footer>
   </body>
 </html>

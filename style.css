@@ -22,29 +22,47 @@ h1 {
   font-family: "Rosarivo", serif;
 }
 
-button {
+.btn {
   font-family: "glacial_indifferenceregular";
   border-radius: 50px;
   padding: 11px 60px 11px 60px;
   background-color: #edebe7;
   border: 1px solid;
+  display: block;
+  margin: 0 auto;
 }
 
 img {
   max-width: 300px;
 }
 
-table {
+.blog-container {
   margin: 0 auto;
 }
 
-th {
+.blog-preview {
   padding: 20px 20px;
 }
 
 .nav-bar {
   text-decoration: none;
   color: black;
+}
+
+.home-nav {
+  padding: 10px 50px 10px 50px;
+}
+
+.blog-nav {
+  padding: 10px 1600px 10px 1600px;
+}
+
+.about-link {
+  padding: 0 50px 0 50px;
+}
+
+.social-link {
+  padding: 0 1725px 0 1725px;
 }
 
 .cursor {
