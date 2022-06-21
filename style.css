@@ -13,13 +13,29 @@ a {
   text-align: center;
 }
 
+.intro-alignment {
+  display: inline-block;
+  text-align: left;
+}
+
 p {
   font-family: "glacial_indifferenceregular";
   font-weight: 300;
 }
 
+.slogan {
+  padding: 200px 0 0 0;
+  margin: 0;
+}
+
 h1 {
   font-family: "Rosarivo", serif;
+  padding: 0 0 200px 0;
+  margin: 0;
+}
+
+.button-container {
+  padding: 50px 0 200px 0;
 }
 
 .btn {
@@ -52,11 +68,11 @@ img {
 }
 
 .home-nav {
-  padding: 10px 50px 10px 50px;
+  padding: 0 50px 0 50px;
 }
 
 .blog-nav {
-  padding: 10px 1180px 10px 1180px;
+  padding: 0 0 10px 1190px;
 }
 
 .about-link {
@@ -64,7 +80,7 @@ img {
 }
 
 .social-link {
-  padding: 0 1310px 0 1310px;
+  padding: 0 0 0 1180px;
 }
 
 .cursor {
