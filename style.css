@@ -9,18 +9,23 @@ a {
   font-weight: 300;
 }
 
-.intro-container {
-  text-align: center;
-}
-
-.intro-alignment {
-  display: inline-block;
-  text-align: left;
-}
-
 p {
   font-family: "glacial_indifferenceregular";
   font-weight: 300;
+}
+
+h1 {
+  font-family: "Rosarivo", serif;
+}
+
+.landing-wrapper {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+.intro-alignment {
+  display: inline-block;
+  text-align: left;
 }
 
 .slogan {
@@ -31,10 +36,6 @@ p {
 .brand-name {
   padding: 0 0 200px 0;
   margin: 0;
-}
-
-h1 {
-  font-family: "Rosarivo", serif;
 }
 
 .button-container {
@@ -53,37 +54,23 @@ h1 {
 }
 
 img {
-  max-width: 300px;
+  max-width: 60%;
 }
 
-.blog-container {
-  margin: 0 auto;
-}
-
-.blog-preview {
-  padding: 20px 20px;
+.blog-wrapper {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
 }
 
 .nav-bar {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+  font-family: "glacial_indifferenceregular";
   text-decoration: none;
   color: black;
   font-size: 16px;
-}
-
-.home-nav {
-  padding: 0 50px 0 50px;
-}
-
-.blog-nav {
-  padding: 0 0 10px 1190px;
-}
-
-.about-link {
-  padding: 0 50px 0 53px;
-}
-
-.social-link {
-  padding: 0 0 0 1176px;
 }
 
 .cursor {
