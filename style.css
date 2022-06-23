@@ -39,7 +39,7 @@ h1 {
 }
 
 .button-container {
-  padding: 50px 0 200px 0;
+  padding: 150px 0 200px 0;
 }
 
 .btn {
@@ -53,14 +53,25 @@ h1 {
   font-size: 16px;
 }
 
-img {
-  max-width: 60%;
-}
-
 .blog-wrapper {
   display: flex;
   justify-content: space-around;
   text-align: center;
+}
+
+@media (max-width: 800px) {
+  .blog-wrapper {
+    flex-wrap: wrap;
+  }
+  .post-link {
+    padding-bottom: 50px;
+  }
+  .brand-name {
+    font-size: 25px;
+  }
+  .button-container {
+    padding-top: 50px;
+  }
 }
 
 .nav-bar {
@@ -78,35 +89,13 @@ img {
     auto;
 }
 
-.header-container {
-  margin: 0 auto;
-  padding-top: 150px;
+.blog-header-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
 }
 
-.header-alignment {
-  display: inline-block;
-  text-align: left;
-  padding: 140px 40px 0 40px;
-}
-
-.blog-title-description {
-  margin: 0;
-  padding-left: 100px;
-}
-
-.blog-paragraph {
-  text-align: left;
-  padding: 30px 240px 30px 240px;
-}
-
-.image-container {
-  margin: 0 auto;
-}
-
-.image-slide {
-  padding: 30px 115px 30px 115px;
-}
-
-.blog-bottom-padding {
-  padding-top: 150px;
+.img-container {
+  display: flex;
+  justify-content: space-evenly;
 }
