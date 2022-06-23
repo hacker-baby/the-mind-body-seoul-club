@@ -31,11 +31,13 @@ h1 {
 .slogan {
   padding: 200px 0 0 0;
   margin: 0;
+  font-size: 20px;
 }
 
 .brand-name {
-  padding: 0 0 200px 0;
+  padding: 0 0 300px 0;
   margin: 0;
+  font-size: 40px;
 }
 
 .button-container {
@@ -66,8 +68,12 @@ h1 {
   .post-link {
     padding-bottom: 50px;
   }
+  .slogan {
+    font-size: 15px;
+  }
   .brand-name {
     font-size: 25px;
+    padding: 0 0 200px 0;
   }
   .button-container {
     padding-top: 50px;
@@ -91,11 +97,27 @@ h1 {
 
 .blog-header-wrapper {
   display: flex;
-  flex-wrap: wrap;
   justify-content: space-evenly;
+  margin: 0 250px 0 250px;
 }
 
 .img-container {
   display: flex;
   justify-content: space-evenly;
+}
+
+.blog-bottom-padding {
+  padding: 0 0 200px 0;
+}
+
+.blog-section {
+  padding-bottom: 100px;
+}
+
+.container {
+  padding: 200px 0 0 0;
+}
+
+.button-wrapper {
+  padding: 50px 0 200px 0;
 }
